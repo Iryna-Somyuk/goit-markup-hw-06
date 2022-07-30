@@ -547,6 +547,60 @@ a {
  
 }
 
+.footer-form {
+   padding-left: 23px;
+}
+.form {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+}
+.footer-form-email {
+    padding: 15px;
+    width: 358px;
+    height: 50px;
+
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));*/
+    border-radius: 4px;
+}
+.footer-form-email:not(:placeholder-shown):required:valid {
+    border-color: #2196F3;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+.footer-form-btn {
+    font-family: inherit;
+    color: var(--hero-title-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    border: none;
+
+    padding: 10px 29px;
+    min-width: 200px;
+    transition: box-shadow var(--anim);
+}
+.footer-form-btn:hover,
+.footer-form-btn:focus,
+.footer-form-btn:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
 
 /* Portfolio*/
 
